@@ -1,3 +1,15 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  background-color: black;
+}
+
+#blink-label {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 100px;
+  color: gray;
+
+  &.blinking {
+    color: #33FF00;
+  }
+}
